@@ -4,7 +4,7 @@ function contatar() {
     const mensagem = "Olá! Recebi a proposta do site Magnus e gostaria de fechar o projeto.";
     
     // Usamos o link oficial api.whatsapp.com que é mais estável para navegadores
-    const url = `https://api.whatsapp.com/send?phone=${fone}&text=${encodeURIComponent(mensagem)}`;
+    const url = "https://api.whatsapp.com/send?phone=" + fone + "&text=" + encodeURIComponent(mensagem);
     
     window.open(url, '_blank');
 }
