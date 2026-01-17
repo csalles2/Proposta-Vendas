@@ -1,6 +1,6 @@
 function contatar() {
     // Substitua pelo seu número de WhatsApp
-    const fone = "5511999999999"; 
+    const fone = "5569992308825"; 
     const mensagem = encodeURIComponent("Olá! Recebi a proposta do site Magnus e gostaria de fechar o projeto.");
     window.open(`https://wa.me/${fone}?text=${mensagem}`, '_blank');
 }
